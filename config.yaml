@@ -34,7 +34,7 @@ monitors:
 
   - id: Alist + Azure
     name: Alist + Azure + VLESS
-    url: 'http://us.btlcraft.top'
+    url: 'http://us.btlcraft.top:5244'
     method: GET
     expectStatus: 200
 
