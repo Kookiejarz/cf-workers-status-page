@@ -15,7 +15,7 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
+  - id: workers-cloudflare # unique identifier
     name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://workers.cloudflare.com/' # URL to fetch
@@ -24,16 +24,24 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
-  - id: www-cloudflare-com
-    name: www.cloudflare.com
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+  - id: KennethLiu-Blog
+    name: www.kennethliu.tk
+    description: 'Blog Page'
+    url: 'https://kennethliu.tk'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
-    name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+  - id: Alist + Azure
+    name: Alist + Azure + VLESS
+    url: 'http://us.btlcraft.top'
     method: GET
     expectStatus: 200
+
+  - id: Rivals-MC
+    name: rivals.cf
+    description: 'Minecraft Server'
+    url: 'https://rivals.cf'
+    method: GET
+    expectStatus: 200
+    linkable: false # allows the title to be a link, default=true
