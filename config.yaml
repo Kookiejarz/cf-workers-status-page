@@ -25,23 +25,39 @@ monitors:
     linkable: false # allows the title to be a link, default=true
 
   - id: KennethLiu-Blog
-    name: www.kennethliu.tk
+    name: KennethLiu-Blog
     description: 'Blog Page'
     url: 'https://kennethliu.tk'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Alist + Azure
-    name: Alist + Azure + VLESS
+  - id: Alist 
+    name: Alist
     url: 'https://cn-hk.btl.moe:5244'
     method: GET
     expectStatus: 200
-
-  - id: Rivals-MC
-    name: rivals.cf
-    description: 'Minecraft Server'
-    url: 'https://rivals.cf'
+    linkable: true 
+    
+  - id: Azure E5 
+    name: Azure E5
+    url: 'https://cn-hk.btl.moe:1066'
     method: GET
     expectStatus: 200
-    linkable: false # allows the title to be a link, default=true
+    linkable: true 
+
+  - id: ORACLE-US
+    name: ORACLE-US
+    url: 'https://us.btlcraft.top'
+    method: GET
+    expectStatus: 200
+    linkable: false 
+
+  - id: AWS-HK
+    name: AWS-HK
+    url: 'https://cn-hk.btl.moe'
+    method: GET
+    expectStatus: 200
+    linkable: false 
+  
+  
