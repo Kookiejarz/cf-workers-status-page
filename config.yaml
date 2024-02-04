@@ -50,14 +50,14 @@ monitors:
     name: ORACLE-US
     url: 'https://us.btlcraft.top'
     method: GET
-    expectStatus: 200
+    expectStatus: 502
     linkable: false 
 
   - id: AWS-HK
     name: AWS-HK
     url: 'https://cn-hk.btl.moe'
     method: GET
-    expectStatus: 200
+    expectStatus: 502
     linkable: false 
   
   
