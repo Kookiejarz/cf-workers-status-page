@@ -34,9 +34,9 @@ monitors:
 
   - id: Alist + Azure
     name: Alist + Azure + VLESS
-    url: 'http://us.btlcraft.top'
+    url: 'https://cn-hk.btl.moe:5244'
     method: GET
-    expectStatus: 504
+    expectStatus: 200
 
   - id: Rivals-MC
     name: rivals.cf
