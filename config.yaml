@@ -27,7 +27,7 @@ monitors:
   - id: KennethLiu-Blog
     name: KennethLiu-Blog
     description: 'Blog Page'
-    url: 'https://kennethliu.tk'
+    url: 'https://kennethliu.eu.org'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
@@ -41,7 +41,7 @@ monitors:
     
   - id: Azure E5 
     name: Azure E5
-    url: 'https://cn-hk.btl.moe:1066'
+    url: 'https://us.btlcraft.top:1066'
     method: GET
     expectStatus: 200
     linkable: true 
