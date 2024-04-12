@@ -32,16 +32,16 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: Alist 
-    name: Alist
-    url: 'https://cn-hk.btl.moe:5244'
+  - id: AI-SEARCH
+    name: AI-SEARCH
+    url: 'https://search.btlcraft.top'
     method: GET
     expectStatus: 200
     linkable: true 
     
-  - id: Azure E5 
-    name: Azure E5
-    url: 'https://us.btlcraft.top:1066'
+  - id: Discourse
+    name: Discourse-Developing
+    url: 'https://discourse.btlcraft.top'
     method: GET
     expectStatus: 200
     linkable: true 
